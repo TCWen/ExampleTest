@@ -22,6 +22,7 @@ public class PlayerControl : MonoBehaviour
         {
             rb.AddForce(0, 0, -sidemov);
         }
+       
         if (Input.GetKey("d"))
         {
             rb.AddForce(0, 0, sidemov);
